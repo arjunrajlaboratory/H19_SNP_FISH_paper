@@ -1,0 +1,45 @@
+ # Rajlab standard readme format in YAML
+--- 
+ID      : MEF CxB 9CG CS Control
+date    : 2015-11-22
+name    : Control_9CG_Rep3_AZAD
+
+sample:
+    organism    : mouse
+    cell type   : MEF p3
+    date fixed  : 9/24/15
+    
+purpose : >
+  Paired 9CG no drug control for final AzaD replicate
+
+experimentalConditions:
+    antifade : TRUE
+    fixation : formaldehyde
+
+microscopeInformation:
+    scope ID : 5
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    tmr :
+        dye   : cy3
+        probe : H19 CAST
+    cy : 
+        dye   : cy5
+        probe : H19 B6
+    alexa : 
+        dye : CF 610
+        probe : H19 guide probe
+        dilution: 1:20
+    gfp :
+         dye : atto488
+         probe : IGF2 mRNA
+         dilution: 1:20
+        
+Keywords:
+
+
+notes : |
+ Check raw stacks for appropriate annotated calls. 
+ 

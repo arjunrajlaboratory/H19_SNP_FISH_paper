@@ -1,0 +1,2 @@
+makeImagesForPaperBiallelic
+makeImagesForPaperMonoallelic

@@ -1,0 +1,25 @@
+objArrayNum,objNum,isGood,AllelicExpression,area,alexa.RNACounts
+1,1,true,monoallelic,85398,129
+1,2,true,monoallelic,91010,29
+2,1,true,monoallelic,130792,26
+2,2,true,IGF2+,123423,690
+3,1,true,monoallelic,77693,255
+4,1,true,monoallelic,89044,79
+5,1,true,IGF2+,131628,223
+6,1,true,monoallelic,85226,266
+7,1,true,IGF2+,85807,121
+8,1,true,IGF2+,34806,299
+8,2,true,Low H19,63555,18
+9,1,true,IGF2+,156372,108
+11,1,true,Low H19,35641,31
+12,1,true,monoallelic,99336,12
+13,1,true,IGF2+,82539,27
+14,1,true,monoallelic,63192,5
+15,1,true,monoallelic,60331,342
+16,1,true,monoallelic,61851,42
+17,1,true,monoallelic,74398,60
+17,2,true,monoallelic,51053,72
+17,3,true,IGF2+,50594,216
+19,1,true,IGF2+,116165,303
+19,2,true,Low H19,58959,21
+20,1,true,IGF2+,78094,5

@@ -1,0 +1,49 @@
+# Rajlab standard readme format in YAML
+--- 
+ID      : H19-9CG-CS-MEF-CRL-1:10-SNP-FISH-72-2
+date    : 2014-08-05 to 2014-08-06
+name    : B x C 9CG MEF in CRL
+
+sample:
+    organism    : mouse
+    cell type   : MEF 
+    date fixed  : 2014-07-27
+    genotype    : C x B6 9CG
+    passage     : 3
+    sample note : Low density, 1MEF:9CRL
+    
+purpose : >
+  H19 CS imaging with mixed MEFs and CRLs to examine growth and expression patterns
+
+experimentalConditions:
+    antifade : TRUE 
+    fixation : formaldehyde
+
+microscopeInformation:
+    scope ID : 2
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    alexa :
+        dye   : cf610
+        probe : H19 guide
+    tmr :        
+        dye   : cy3
+        probe : H19 CAST SNP
+    cy :        
+        dye   : cy5
+        probe : H19 B6 SNP
+        
+Keywords:
+- CS
+
+SNP_Processor: snpColoc
+PS_Processor: snpColoc_pixelShift2
+
+
+notes : |
+ Most MEFs express H19 and at high level; can see that some cells are biased, others clearly biallelic
+ Positions 1-40 were taken on 080514 (or slightly after midnight), 41-50 from 080614
+ Positions 8+9, 10+11, 13+14, 16+17 (7) are paired
+ Position 50 is representative of a large cluster (15 MEFs seen in eyepiece, more around that)

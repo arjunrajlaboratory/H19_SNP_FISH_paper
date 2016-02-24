@@ -1,0 +1,47 @@
+# Rajlab standard readme format in YAML
+--- 
+ID      : C x B WT MEFs IGF2 Rep2
+date    : 2015-11-12
+name    : CxB MEF WT IGF2 2
+
+sample:
+    organism    : mouse
+    cell type   : MEF p3
+    date fixed  : 3/27/15
+    
+purpose : >
+  Check IGF2 expression in WT MEF
+  
+experimentalConditions:
+    antifade : TRUE 
+    fixation : formaldehyde
+
+microscopeInformation:
+    scope ID : 5
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    tmr :
+        dye   : cy3
+        probe : H19 B6
+    cy : 
+        dye   : cy5
+        probe : H19 CAST
+    alexa : 
+        dye : CF 610
+        probe : H19 guide probe
+        dilution: 1:20
+    gfp :
+         dye : atto488
+         probe : IGF2 mRNA
+         dilution: 1:20
+ 
+Keywords:
+
+SNP_Processor : snpColoc
+PS_Processor : snpColoc_pixelShift
+
+notes : |
+ TMR background is higher density than usual- possibly a result of scope 5.
+ Some photobleaching seen in Cy toward the end of stacks.

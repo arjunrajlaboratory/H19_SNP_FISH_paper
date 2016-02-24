@@ -1,0 +1,42 @@
+# Rajlab standard readme format in YAML
+--- 
+ID      : B x C WT MEFs
+date    : 2014-12-15
+name    : B6xC7 MEF WT
+
+sample:
+    organism    : mouse
+    cell type   : MEF p2
+    date fixed  : 11/26/14
+    
+purpose : >
+  This FISH tests the H19 SNP Probe against B6xC7 genetic control MEFs.
+
+experimentalConditions:
+    antifade : TRUE 
+    fixation : formaldehyde
+
+microscopeInformation:
+    scope ID : 2
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    tmr :
+        dye   : cy3
+        probe : H19 B6
+    cy : 
+        dye   : cy5
+        probe : H19 C7
+    alexa : 
+        dye : CF 610
+        probe : H19 guide probe
+        dilution: 1:20
+        
+SNP_Processor: snpColoc2
+PS_Processor: snpColoc_pixelShift2
+
+Keywords:
+
+
+notes : |

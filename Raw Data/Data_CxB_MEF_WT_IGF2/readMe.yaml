@@ -1,0 +1,47 @@
+# Rajlab standard readme format in YAML
+--- 
+ID      : C x B WT MEFs IGF2
+date    : 2015-01-06
+name    : C x B WT MEF IGF2
+
+sample:
+    organism    : mouse
+    cell type   : MEF p2
+    date fixed  : 11/26/14
+    
+purpose : >
+  Check IGF2 expression in WT MEF
+  
+experimentalConditions:
+    antifade : TRUE 
+    fixation : formaldehyde
+
+microscopeInformation:
+    scope ID : 2
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    tmr :
+        dye   : cy3
+        probe : H19 B6
+    cy : 
+        dye   : cy5
+        probe : H19 CAST
+    alexa : 
+        dye : CF 610
+        probe : H19 guide probe
+        dilution: 1:20
+    gfp :
+         dye : atto488
+         probe : IGF2 mRNA
+         dilution: 1:20
+ 
+Keywords:
+
+SNP_Processor : snpColoc2
+PS_Processor : snpColoc_pixelShift
+
+notes : |
+
+

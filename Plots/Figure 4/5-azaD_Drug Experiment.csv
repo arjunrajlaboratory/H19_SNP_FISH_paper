@@ -1,0 +1,11 @@
+"","RepID","Condition","Genotype","fracMono"
+"1","Rep1","Control","9CG",0.220779220779221
+"2","Rep1","Control","WT",1
+"3","Rep1","Drug","9CG",0.108695652173913
+"4","Rep1","Drug","WT",1
+"5","Rep2","Control","9CG",0.234042553191489
+"6","Rep2","Control","WT",1
+"7","Rep2","Drug","9CG",0.111111111111111
+"8","Rep2","Drug","WT",1
+"9","Rep3","Control","9CG",0.287671232876712
+"10","Rep3","Drug","9CG",0.142857142857143

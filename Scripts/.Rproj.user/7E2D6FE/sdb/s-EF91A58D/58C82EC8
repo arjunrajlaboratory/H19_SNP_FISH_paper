@@ -1,0 +1,18 @@
+{
+    "contents" : "#SET PATH FOR ALL FIGURE SCRIPTS\n#Make sure working directory is set here so that R scripts can run properly\n\n\nPROJHOME = normalizePath(getwd())\n",
+    "created" : 1449091915574.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "275895954",
+    "id" : "58C82EC8",
+    "lastKnownWriteTime" : 1449092719,
+    "path" : "/Volumes/SNPFISH_H19/H19 SNP-FISH Paper/SET_ABSOLUTE_PATH.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+objArrayNum,objNum,isGood,AllelicExpression,area,alexa.RNACounts
+2,1,true,biallelic,163814,186
+3,1,true,monoallelic,116037,26
+4,1,true,biallelic,188422,32
+5,1,true,biallelic,80632,91
+6,1,true,biallelic,107072,97
+7,1,true,Low H19,112231,31
+7,2,true,monoallelic,63202,25
+8,1,true,Low H19,144371,8
+9,1,true,biallelic,184534,79
+10,1,true,biallelic,64730,64
+11,1,true,biallelic,73975,31
+12,1,true,biallelic,137268,408
+13,1,true,biallelic,29851,82
+14,1,true,UNDEF,192254,34
+15,1,true,UNDEF,67357,110
+16,1,true,biallelic,152299,132
+16,2,true,biallelic,102371,26
+16,3,true,Low H19,125104,41
+17,1,true,biallelic,154867,87
+17,2,true,biallelic,97002,99
+18,1,true,biallelic,131636,198
+18,2,true,biallelic,74473,92
+19,1,true,Low H19,144482,11
+19,2,true,biallelic,231005,11
+19,3,true,Low H19,113361,71

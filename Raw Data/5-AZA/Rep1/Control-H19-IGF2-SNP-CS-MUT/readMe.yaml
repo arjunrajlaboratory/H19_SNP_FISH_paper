@@ -1,0 +1,44 @@
+# Rajlab standard readme format in YAML
+--- 
+ID      : Control_H19-IGF-MUT-Azad
+date    : 2015-03-01
+name    : Control_9CG_Rep1_AZAD
+
+sample:
+    organism    : mouse
+    cell type   : MEF
+    date fixed  : 2/28/2015
+    
+purpose : >
+  Control for 9CG AZAD
+  
+experimentalConditions:
+    antifade : TRUE 
+    fixation : formaldehyde
+    hybridtime : 7 hours
+
+microscopeInformation:
+    scope ID : 2
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    tmr :
+        dye   : cy3
+        probe : C7 H19 SNPs
+    cy : 
+        dye   : cy5
+        probe : B6 H19 SNPs
+    alexa : 
+        dye : CF610
+        probe : H19 guide probe
+        dilution: 1:20
+    gfp : 
+        dye : atto488
+        probe : IGF2 guide probe
+        dilution: 1:20
+        
+Keywords:
+
+notes: |
+ Decent sample.   

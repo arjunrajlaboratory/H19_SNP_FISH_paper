@@ -1,0 +1,42 @@
+# Rajlab standard readme format in YAML
+--- 
+ID      : C x B 9CG MEFs
+date    : 2014-11-14
+name    : C7xB6 MEF 9CG CS
+
+sample:
+    organism    : mouse
+    cell type   : MEF p2
+    date fixed  : 2014-11-02
+    
+purpose : >
+  9CG Bulk Experiment Data at p2 Color Swap
+
+experimentalConditions:
+    antifade : TRUE 
+    fixation : formaldehyde
+
+microscopeInformation:
+    scope ID : 2
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    tmr :
+        dye   : cy3
+        probe : H19 CAST
+    cy : 
+        dye   : cy5
+        probe : H19 B6
+    alexa : 
+        dye : CF 610
+        probe : H19 guide probe
+        dilution: 1:20
+        
+Keywords:
+
+SNP_Processor: snpColoc2
+PS_Processor: snpColoc_pixelShift
+
+notes : |
+

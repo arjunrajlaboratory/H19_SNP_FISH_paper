@@ -1,0 +1,40 @@
+# Rajlab standard readme format in YAML
+--- 
+ID      : Cardiac9CGCSH19-H&E_counterpart_1
+date    : 2014-08-06
+
+sample:
+    organism    : mouse
+    cell type   : cardiac
+    date fixed  : 2014-08-05
+	date sectioned  : 2014-08-05
+	mouseID : 2 from fourth dissection (05-15-14)
+    
+purpose : >
+  This FISH tests H19 SNPFISH in 9CG cardiac tissue
+  
+experimentalConditions:
+    antifade : TRUE 
+    fixation : formaldehyde
+
+microscopeInformation:
+    scope ID : 2
+    light source intensity : 100
+    perfect Focus : FALSE
+
+channels:
+    tmr :
+        dye   : cy3
+        probe : H19 SNP All CAST 
+    cy : 
+        dye   : cy5
+        probe : H19 SNP All B6
+    alexa : 
+        dye : calFlour 610
+        probe : H19 guide probe
+	    dilution: 1:20
+        
+Keywords:
+ - FISH
+
+notes : |
